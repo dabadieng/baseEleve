@@ -1,0 +1,51 @@
+Cahier des charge :
+On souhaite avoir une base de données permettant de gérer les notes d'un groupe d'élèves pour plusieurs matières.
+Entité :
+- élève
+- matiere
+
+Propriété :
+- valeur d'une note
+- le nom de l'élève
+- le libellé d'une matière
+
+Association :
+- attribuer : une note est attribuée à un élévè pour une matière
+
+<MCD>
+    <Entité>
+    élève :
+        - nom
+        - id
+        - date de naissance
+
+    matière
+        - id
+        - libellé
+
+    </Entité>
+
+    <Association>
+    Attribuer (note) :
+    - élève 0,N
+    - matière 0,N
+    </Association>
+</MCD>
+
+<MLD>
+    élève :
+        - nom
+        - id
+        - date de naissance
+
+    matière
+        - id
+        - libellé
+
+    Attribuer:
+    - no_id
+    - note (int)
+    - no_eleve
+    - no_matiere
+
+</MLD>

@@ -1,0 +1,20 @@
+Le menu :
+Ajouter un élève
+Ajouter une matière
+
+page index.php : tableau avec verticalement la liste des élèves et en entête de colonne la liste des matières,
+et dedans les notes.
+
+les actions :
+clic sur le nom d'un élève : formulaire de modification du nom et de la date de naissance  + bouton de suppression
+clic sur le nom d'une matière : formulaire de modification du nom + bouton de suppression
+clic sur une note : formulaire de modification de la valeur + bouton de suppression
+Pour les cellules pour lesquelles il n'y a pas de note : lien pour créer une note.
+
+Ajouter une colonne Moyenne : affiche la moyenne de chaque élève
+Ajouter une ligne Moyenne : affiche la moyenne pour chaque matière
+Afficher les notes d'une matière : en vert si supérieure à la moyenne de la matière sinon en rouge.
+
+
+
+

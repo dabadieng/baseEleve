@@ -1,0 +1,20 @@
+On souhaite avoir une base de données permettant de gérer les notes d'un groupe d'élèves pour plusieurs matières.
+Un élève un caractérisé par :
+- un identifiant unique
+- un nom
+- une date de naissance
+
+Une matière est caractérisée par :
+- un identifiant unique
+- un libellé
+
+Une note est caractérisé par :
+- un identifiant unique
+- un identifiant de matière
+- un identifiant d'élève
+- un nombre flottant correspondant à la valeur de la note sur 20
+- une date correspondant à la date d'attribution de la note
+
+On considèrera 2 cas :
+cas 1 : un élève ne peut avoir qu'une seule note par matière.
+cas 2 : un élève peut avoir plsuieurs notes par matière.
